@@ -1,0 +1,49 @@
+body{
+    background-color: lightblue;
+    background: linear-gradient(rgba(79, 120, 180, 0.836), rgb(60, 199, 204));
+    
+
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(143, 84, 197);
+    text-shadow: black 0.1em 0.1em 0.2em
+  
+
+}
+
+h2{
+    color: #33C3F0;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#content {
+    margin-top: 40px;
+}
+.remove-tweet,
+.remove-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+
+#myTweets{
+    background-color: darkgray;
+    padding: 15px 20px 10px 20px;
+    border-radius: 15%;
+    width: 250px;
+    height: 250px;
+    box-shadow: rgb(19, 34, 85) 0.7em 0.7em 0.8em;
+}
+
+#tweet{
+    box-shadow: rgb(19, 34, 85) 0.5em 0.5em 0.7em;  
+}
+
